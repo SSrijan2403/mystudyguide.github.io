@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My study Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        scroll-behavior: smooth;
+        position: static;
+     
+    }
+    html, body{
+       width: 80%;
+       height: 100%;
+    }
+    body  { 
+         background-image: url('pexels-lorenzo-242236.jpg');
+         background-repeat: repeat;
+         background-size: contain; 
+        
+        
+    }
+    h1{
+        font-family: 'Zen Dots', cursive;
+        font-size: 75px;
+        color: rgb(59, 105, 209);
+        padding: 15px;
+        text-align: center;
+        width: 1476px;
+        
+    }
+.navbar li{
+    float: left;
+    margin: 12px;
+    list-style: none;
+
+}  
+.navbar ul{
+    overflow: auto;
+}
+.navbar{
+    background-color: rgb(64 ,109 ,255);
+    border-radius: 33px;
+    height: 51px;
+    width: 1500px;
+    
+}
+.navbar li{
+    margin: 12px;
+
+}
+.navbar li a{
+    margin: 0px;
+    float: left;
+    text-decoration: none;
+    font-family: 'Zen Dots', cursive;
+    font-size: 17px;
+    padding: 3px;
+    width: 150px;
+    text-align: center;
+    border-radius: 33px;
+    color: rgb(227 ,255 ,71);
+    font-size: 22px;
+}
+.navbar li a:hover{
+    background-color: rgb(161, 183, 255);
+}
+.firstpara{
+    margin: 12px;
+    text-align: center;
+}
+.firstpara h2{
+    background-color: rgb(0 ,141, 105);
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
+    padding: 30px;
+    color: rgb(0, 55, 137);
+    width: 1420px;
+}
+.firstpara p{
+    background-color: rgb(63, 192, 92);
+    font-family: 'Zen Dots', cursive;
+    font-size: 28px;
+    padding: 30px;
+    color: rgb(37 ,84 ,255);
+    margin: -25px;
+    width: 1419px;
+    margin-inline-start: 0px;
+    word-spacing: 14px;
+    line-height: 47px;
+}
+.std8{
+margin: 44px;
+padding: 25px;
+}
+.std9{
+    margin: 44px;
+padding: 25px;
+}
+.std10{
+    margin: 44px;
+padding: 25px;
+}
+.std11{
+    margin: 44px;
+padding: 25px;
+}
+.std12{
+    margin: 44px;
+padding: 25px;
+}
+.container{
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(161, 183, 255); 
+    margin: 14px;
+    padding: 25px; 
+    width: 1431px;
+    margin-inline-start: -57px;
+    color: rgb(4 ,44 ,104);
+}
+.menu1{
+    background-color: rgb(218 ,236, 250);
+    list-style: none;
+    display: inline-flex;
+    width: 1480px;
+    margin: -14px;
+    margin-inline-start: -57px;
+    text-align: center;
+    
+}
+
+.menu1 ul{
+    display: inline-flex;
+    list-style: none;
+     width: 70%; 
+  
+}
+
+.menu1 li a{
+    text-decoration: none;
+    font-family:'Zen Dots', cursive; 
+    font-size: 25px;
+    color: rgba(142, 51, 228, 0.959);
+    margin: 60px;
+   
+    
+}
+ 
+.menu1-1{
+    display: none;
+    text-align: start;
+    background-color: rgb(177, 208, 255);
+    width: 270px;
+    border-radius: 33px;
+}
+
+.menu1-1 ul li a{
+    text-align: start;
+    color: rgb(156, 101, 28);
+    font-size: 16px;
+    
+}
+
+.menu1 ul li:hover .menu1-1{
+    display: block;
+    position: absolute;
+    
+}
+.menu1 ul li:hover .menu1-1 ul{
+    display: block;
+   
+    
+}
+.menu1 ul li:hover .menu1-1 ul li{
+    margin: 4px;
+    border: dotted;
+    border-color: rgb(8, 64, 247);
+   
+}
+.menu1 ul li:hover {
+    background-color: rgb(161, 183, 255);
+    border-radius: 33px;
+}
+.text{
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    font-size: 45px;
+    color: rgb(31, 0, 7);
+    margin: 70px;
+    width: 1441px;
+}
+.form{
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    font-size: 37px;
+    color: rgb(64 ,109 ,255);
+    margin: -91px;
+    padding: 28px;
+    line-height: 76px;
+    width: 1546px;
+}
+.button input{
+    background-color:rgb(161, 177, 246);
+    border-radius: 33px;
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color: rgb(192,59,7);
+
+}
+.form div input{
+    background-color:rgb(161, 177, 246);
+    border-radius: 15px;
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color: rgb(192,59,7);
+
+}
+
+.write address{
+    margin: 14px;
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color: rgb(2, 116, 30);
+    
+}
+.write{
+    margin-top: 159px;
+}
+.devloper{
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(192, 43, 5);
+    margin-top: 31px;
+    width: 1500px;
+}
+.socialtags{
+     justify-content: flex-end; 
+     align-items: center; 
+    display:flex; 
+    width: 1498px;
+}
+.socialtags a{
+    background-color:#bac3e7;
+    border-radius: 50px;
+    height: 80px;
+    width:80px ;
+    margin:3px;
+    margin-top: 20px;
+    box-shadow: 1px 4px 2px 2px #39508f;
+    text-align: center;
+}
+.socialtags a i{
+    font-size: 40px;
+    line-height: 75px;
+}
+.socialtags a:hover{
+    transition: all 0.3s linear;
+     transform: scale(1.4); 
+     background-color:#617ae0 ;
+    
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-twitter{
+    color:#1DA1F2;
+}
+.fa-linkedin{
+color: #2867B2;
+}
+.fa-github{
+color:#333 ;
+}
+.fa-tumblr{
+color:black;
+}
+</style>
+<body>
+<h1><u>My study guide</u></h1>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#class8">Class 8</a></li>
+            <li><a href="#class9">Class 9</a></li>
+            <li><a href="#class10">Class 10</a></li>
+            <li><a href="#class11">Class 11</a></li>
+            <li><a href="#class12">Class 12</a></li>
+            <li><a href="#helpline">Talk to us</a></li>
+            <li><a href="#devlop">Devloper</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="firstpara" id="home">
+    <h2>Welcome to this website</h2>
+    <p>If you are a student of class 8-12, you have landed to a correct website.
+    You can get all your query solved here from getting syllabus to the latest question papers availaible.</p>
+</div>
+<div class="std8">
+<div class="container" id="class8">
+    Class 8
+</div>
+<div class="menu1">
+    <ul>
+        <li><a href="">Mathematics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/">Previous papers</a></li>
+               </ul>
+    </div>
+    </li>
+        
+        
+        <li><a href="">Science</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+        </li>
+        <li><a href="">S.St</a>
+        
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">English</a>
+        
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/" target="_blank">Previous papers</a></li>
+            </ul>
+        </div>
+    </li>
+        <li><a href="">Hindi</a>
+        
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Sankrit</a>
+        
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.kopykitab.com/blog/cbse-syllabus-for-class-8/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.embibe.com/exams/ncert-books-for-class-8/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-8/" target="_blank">Previous papers</a></li>
+            </ul>
+        </div>
+    </li>
+    
+</ul>
+</div>
+</div>
+<div class="std9">
+<div class="container" id="class9">
+    Class 9
+</div>
+<div class="menu1">
+    <ul>
+        <li><a href="">Mathematics</a>
+        
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://byjus.com/cbse/cbse-class-9-syllabus/" target="_blank">Syllabus</a></li>
+            <li><a href="https://byjus.com/ncert-books-for-class-9/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-9/" target="_blank">Previous papers</a></li>
+                </ul>
+        </div>
+        </li>
+        <li><a href="">Science</a>
+            <div class="menu1-1">
+                <ul>
+                <li><a href="https://byjus.com/cbse/cbse-class-9-syllabus/" target="_blank">Syllabus</a></li>
+                <li><a href="https://byjus.com/ncert-books-for-class-9/" target="_blank">Books</a></li>
+                <li><a href="https://byjus.com/cbse-sample-papers-for-class-9/" target="_blank">Previous papers</a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="">S.St</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://byjus.com/cbse/cbse-class-9-syllabus/" target="_blank">Syllabus</a></li>
+            <li><a href="https://byjus.com/ncert-books-for-class-9/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-9/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">English</a>
+            <div class="menu1-1">
+                <ul>
+                <li><a href="https://byjus.com/cbse/cbse-class-9-syllabus/" target="_blank">Syllabus</a></li>
+            <li><a href="https://byjus.com/ncert-books-for-class-9/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-9/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Sanskrit</a>
+            <div class="menu1-1">
+                 <ul>
+            <li><a href="https://byjus.com/cbse/cbse-class-9-syllabus/" target="_blank">Syllabus</a></li>
+            <li><a href="https://byjus.com/ncert-books-for-class-9/" target="_blank">Books</a></li>
+            <li><a href="https://byjus.com/cbse-sample-papers-for-class-9/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        </ul>
+    </div>
+    </div>
+    <div class="std10">
+<div class="container" id="class10">
+    Class 10
+</div>
+<div class="menu1">
+    <ul>
+        <li><a href="">Mathematics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Science</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">S.St</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">English</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Sanskrit</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+    </ul>
+</div>
+</div>
+<div class="std11">
+<div class="container" id="class11">
+    Class 11
+</div>
+<div class="menu1">
+    <ul>
+        <li><a href="">Mathematics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Physics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Chemistry</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">English</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+            </div>
+        </li>
+        <li><a href="">CS</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+    </ul>
+</div>
+</div>
+<div class="std12">
+<div class="container" id="class12">
+    Class 12
+</div>
+<div class="menu1">
+    <ul>
+        <li><a href="">Mathematics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Physics</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">Chemistry</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">English</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+        <li><a href="">CS</a>
+            <div class="menu1-1">
+                <ul>
+            <li><a href="https://www.google.com/" target="_blank">Syllabus</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Books</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Previous papers</a></li>
+        </ul>
+        </div>
+    </li>
+    </ul>
+</ul>
+</div>
+</div>
+<div class="helpline" id="helpline">
+    <div class="text">
+    Fill the form below. Our team will reach you soon.
+</div>
+    <br>
+    <br>
+    <div class="form">
+<form action="backend.php">
+<div>
+    Name : <input type="text" name="myName">
+</div>
+<div>
+    Class: <input type="number" name="myClass">
+</div>
+<div>
+    Date of birth: <input type="date" name="dob">
+</div>
+<div>
+    Are you 15+: <input type="checkbox" name="checkbox" checked>
+</div>
+<div>
+    Gender:   Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Others <input type="radio" name="gender">
+</div>
+<div>
+   Phone Number: <input type="number" name="phnNo"> 
+</div>
+<div>
+    Email id: <input type="email" name="emailId">
+</div>
+<div class="button">
+    <input type="submit" value="Submit Now">
+    <input type="reset" value="Reset the form">
+</div>
+</form>
+</div>
+</div>
+<div class="write" id="write">
+    <address>    Reach to us: <a href = "mailto: sanskarsrijan445@gmail.com">Send Email</a>
+    </address>
+</div>
+<div class="devloper" id="devlop">
+    Designed by: <div class="sanskar"><u>Sanskar Srijan</u></div>
+</div>
+
+<div class="socialtags">
+    <a href="https://www.instagram.com/srijan_sanskar/" target="_blank">
+        <i class="fa fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/SrijanSanskar" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/sanskar-srijan-8666ab201/">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/SSrijan2403" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    <a href="https://www.tumblr.com/blog/srijansanskar" target="_blank">
+        <i class="fa fa-tumblr"></i>
+    </a>
+</div>
+
+    
+</body>
+</html>
